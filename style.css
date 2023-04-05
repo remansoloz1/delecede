@@ -1,0 +1,374 @@
+@font-face {
+    font-family: puppy;
+    src: url("Fonts/Puppy.otf");
+}
+@font-face{
+    font-family: sweet;
+    src: url("Fonts/Sweet.otf");
+}
+
+@font-face{
+    font-family: dear;
+    src: url("Fonts/Dear\ Dreamer.otf");
+}
+@font-face{
+    font-family:monof;
+    src: url("Fonts/vanilla.otf");
+}
+@font-face{
+    font-family:happy;
+    src: url("Fonts/KGHAPPY.ttf");
+}
+
+.background{
+    background: url("fondo_principal.png") no-repeat center;
+    background-size: cover;
+}
+.nombre{
+    margin: 0;
+    padding-top: 3%;
+}
+.container h2{
+    font-family:monof;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: 2px 2px 0.5px rgb(107, 18, 18);
+}
+span{
+    font-family: happy;
+    color: white;
+    letter-spacing: 5px;
+    padding-right: 1rem;
+}
+.glass{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+.botonM{
+    margin-bottom: 0.5rem;
+}
+
+
+/*-----------------------*/
+.fondoIndex{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*-----------------------*/
+.glassIndex{
+    height: 100vh;
+    width: auto;
+    background: #fafafa10;
+    backdrop-filter: blur(0.9rem);
+    -webkit-backdrop-filter: blur(0.9rem);
+    display: block;
+}
+.patas{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    height: auto;
+    max-width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0;
+    margin: 0;
+    color:#fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-family: dear;
+    letter-spacing: .6rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2rem;
+    margin-bottom: 0;
+    margin-top:0.3rem;
+}
+/*
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 0;
+}
+*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0;
+}
+.socials li{
+    margin: 0 15px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.5rem;
+}
+.footer-bottom{
+    background: #001;
+    max-width: 100vw;
+    padding: 1px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: .8rem;
+    font-family: puppy;
+    word-spacing: 12px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 0.8rem;
+    margin: 0.5rem 0 0;
+}
+/*------------------------CONTENIDO EDITABLE--------------------------*/
+
+.footer-bottom span::before{
+    text-transform: uppercase;
+    font-family: puppy;
+    font-weight: 50;
+    word-spacing: -1px;
+    letter-spacing: 3px;
+    content:"";
+}
+.novo i::before{
+    content:"DELC";
+    font-size: 1rem;
+    text-shadow: 1px 2px 1px black;
+}
+.novo ul li {
+    color:white;
+    font-size: 1rem;
+    text-shadow: 1px 2px 1px black;
+}
+.novo p a{
+    color:rgb(52, 82, 214);
+    text-decoration: none;
+    
+}
+/*--------------------------------------------------------------------*/
+
+.footer-bottom a{
+    text-decoration: none;
+    color:white;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    font-size: .5rem;
+}
+
+
+/*---------------------------------*/
+.xmen{
+   /* border:red dashed 2px;*/
+    width: 100%;
+    height: 35vh;
+}
+.xmen p{
+    color: white;
+    font-size: .69rem;
+    margin-top: 1px;
+    padding-top: 1px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.btn a{
+    color:wheat;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.cajaInvisibleMain{
+    width: 100%;
+    height: 82vh;
+    background-color: transparent;
+   /* border:2px rgb(251, 255, 0) solid;*/
+    
+}
+.cajaImagen{
+    
+    width: 100%;
+    height: auto;
+  /*  border:2px rgb(85, 29, 90) solid;*/
+    
+}
+.cajaImagen2{
+    
+    width: 100%;
+    height: 80vh;
+    /*border:2px rgb(85, 29, 90) solid;*/
+    
+}
+.cajaInvisible{
+    width: 100%;
+    height: 76vh;
+    background-color: transparent;
+
+}
+.cajaH2{
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    /*border:2px orange dashed;*/
+}
+.cajaInvisibleMain h2{
+    color:rgb(47, 22, 116);
+    position: relative;
+    font-family: happy;
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px white;
+}
+.cajaInvisibleMain h2:hover{
+    color:rgb(86, 55, 172);
+    position: relative;
+
+}
+.cajaInvisible ul li{
+    color:wheat;
+    list-style-type: none;
+    margin: 0.4rem;
+}
+.cajaInvisible ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:monof;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 0.5px rgb(107, 18, 18);
+}
+.cajita{
+    display: inline-flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100vw;
+  
+    /*border:pink dashed 2px;*/
+}
+
+.cajaH2 h3{
+    font-family:monof;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: rgb(24, 125, 172);
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 0.5px rgb(0, 0, 0);
+}
+
+.container h3{
+    font-family:monof;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: 2px 2px 0.5px rgb(107, 18, 18);
+}
+
+.cajaH2 h4{
+    font-family:monof;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: rgb(218, 30, 30);
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 0.5px rgb(0, 0, 0);
+}
+
+.container h4{
+    font-family:monof;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: 2px 2px 0.5px rgb(107, 18, 18);
+}
+
+
+
+/*------------------------ BUSCA ------------------------*/
+
+#input-search{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.content-search{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 13.5rem;
+    left: 0;
+    background: transparent;
+    display: none;
+    z-index: 3;
+}
+
+.content-table{
+    width: 306px;
+    max-height: 200px;
+    height: auto;
+    background: rgba(12, 15, 56, 0.3);
+    margin-left: 17px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    border-radius: 0 0 0 5%;
+    border-end-end-radius: 5%;
+    
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+.novo{
+    position: absolute;
+    font-size: 2rem;
+    display: block;
+    /* border: green dashed 2px;*/
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    
+}
+.novo p{
+    color:white;
+    font-size: 1rem;
+    text-shadow: 1px 2px 1px black;
+}
